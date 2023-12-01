@@ -6,7 +6,10 @@ import './App.css'
 
 
 
-
+const aman=()=>{
+  counter = counter+1;
+}
+ 
 
 function App() {
   let counter = 5; 
