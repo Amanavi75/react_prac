@@ -6,14 +6,15 @@ import './App.css'
 
 
 
-const aman=()=>{
-  counter = counter+1;
-}
  
 
 function App() {
   let counter = 5; 
    
+
+  const addValue=()=>{
+      console.log("value adde")
+  }
   return (
     <>
       <h1> chai aur react </h1>
