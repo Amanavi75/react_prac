@@ -9,11 +9,15 @@ import './App.css'
  
 
 function App() {
-  let counter = 5; 
+
+  const [counter,setCounter]=useState(15)
+  // basically used to  propaagate the change to the user interfaces 
    
 
   const addValue=()=>{
-      console.log("value adde")
+      console.log("clicked",counter);
+      counter = counter+1 ;
+
   }
   return (
     <>
