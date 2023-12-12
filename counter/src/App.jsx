@@ -16,7 +16,7 @@ function App() {
 
   const addValue=()=>{
       console.log("clicked",counter);
-      setCounter(counter+1)
+      setCounter(counter+1) // used to reflect the updated value on the ui 
 
   }
 
