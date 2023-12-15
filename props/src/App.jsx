@@ -13,8 +13,9 @@ function App() {
     <>
       <h1 className='bg-green-400 text-black p-4 rounded-2xl mb-6'> Started with props </h1>
       <Card username="aman"/>
-      <br /><br />
       <Card username={"aditya"}/>
+      
+      
       
     </>
   )
