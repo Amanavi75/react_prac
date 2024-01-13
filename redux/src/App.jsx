@@ -8,7 +8,16 @@ function App() {
 
   return (
     <>
-      <h1> Started with redux</h1>
+      <nav>
+        <div className='container'>
+
+          <div className='Home'>Home</div>
+          <div className='Function'>function </div>
+          <div className='Feature'>feature</div>
+          <div className='Contact'>Contact Us</div>
+
+        </div>
+      </nav>
     </>
   )
 }
